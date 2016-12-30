@@ -1,4 +1,4 @@
-`mongo-parse`
+`elect`
 ============
 
 A javascript library that tests multi-winner and single-winner election systems and their corresponding voting strategies with [Bayesian Regret](http://rangevoting.org/BayRegDum.html).
