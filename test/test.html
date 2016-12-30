@@ -1,0 +1,6 @@
+<body><div id='results'></div></body>
+<script src="../dist/elect.umd.js"></script>
+<script>
+    var results = document.getElementById("results")
+    elect.test(results, {candidates: 30, voters: 10, issues: 10, iterations:2000}, elect.testSystems)
+</script>

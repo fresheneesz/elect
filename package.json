@@ -1,0 +1,23 @@
+{"name":"elect",
+ "description": "A framework for evaluating voter satisfaction of both multi- and single- winner elections using bayesian regret.",
+ "keywords": ["elect", "election", "bayesian", "regret", "satisfaction", "voter", "vote", "ballot"],
+ "version":"0.8.0",
+ "main": "elect.js",
+ "author": "Billy Tetrud <bitetrudpublic@gmail.com> (https://github.com/fresheneesz/)",
+ "license": {
+   "name": "MIT",
+   "url": "http://www.opensource.org/licenses/mit-license.php"
+ },
+ "repository": {
+   "type": "git",
+   "url": "git://github.com/fresheneesz/mongo-parse"
+ },
+ "dependencies": {
+   "proto":"*"
+ },
+ "devDependencies": {
+     "build-modules":"2.0.5",
+     "deadunit":"5.0.3",
+     "colors":"*"
+ }
+}
