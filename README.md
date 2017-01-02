@@ -2,6 +2,8 @@
 ============
 
 A javascript library that tests multi-winner and single-winner election systems and their corresponding voting strategies with [Bayesian Regret](http://rangevoting.org/BayRegDum.html).
+This uses a strategy of choosing a number of societal options (or issues) and measuring the net utility of the voters as a measure of the satisfaction (or regret) of any given outcome. 
+This method is []described here](http://rangevoting.org/BRmulti.html). See [a working example of this library in use](http://rangevoting.org/multiWinnerBaysianRegret.html). 
 
 Example:
 
