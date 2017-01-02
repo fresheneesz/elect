@@ -103,8 +103,8 @@ While you can create your own, there are a number of built-in voting systems:
 * `elect.systems.random` - A random candidate is chosen.
 * `elect.systems.randomVotersChoice` - A candidate is chosen based on votes from a randomly selected set of voters.
   * `elect.systems.randomVotersChoice['single voter']` - One voter is randomly selected.
-  * `elect.systems.randomVotersChoice['10% of the voters']` - 10% of the voters are selected and a pluarlity vote of that set determines the winner.
-* `elect.systems.pluarlity` - [Pluarlity voting system](https://en.wikipedia.org/wiki/Plurality_voting_system)
+  * `elect.systems.randomVotersChoice['10% of the voters']` - 10% of the voters are selected and a plurality vote of that set determines the winner.
+* `elect.systems.plurality` - [Plurality voting system](https://en.wikipedia.org/wiki/Plurality_voting_system)
 * `elect.systems.range` - [Range voting system](https://en.wikipedia.org/wiki/Range_voting)
 * `elect.systems.singleTransferableVote` - [STV voting system](https://en.wikipedia.org/wiki/Single_transferable_vote)
 * `elect.systems.directRepresentativeRanked` - A proportional representation method using ranked voting.
